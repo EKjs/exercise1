@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  font-family: sans-serif;
+}
+
+header {
+  background: peru;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+}
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#logo a img {
+  width: 75px;
+  margin: 2px;
+}
+
+nav {
+  color: #aa725e;
+  background-color: #5f150e;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #aa725e;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+article.services {
+  display: flex;
+  flex-direction: column;
+}
+article img {
+  width: 150px;
+  height: auto;
+  margin: 0 10;
+}
+
+h2,
+h3 {
+  margin: 20 0 10 0;
+}
+
+.footerBackground {
+  text-align: center;
+  font: "Avant Garde";
+  color: #aa725e;
+  background-color: #5f150e;
+  border-bottom: 3px solid #aa725e;
+}
+
+#authors {
+  border-top: 3px solid #aa725e;
+  border-bottom: 3px solid #aa725e;
+}
+
+#emails {
+  text-align: center;
+}
+
+#ad {
+  display: none;
+  /*display: flex;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 30px solid green;
+}
+#ad a {
+  color: beige;
+}
